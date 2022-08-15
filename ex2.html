@@ -1,0 +1,116 @@
+ <!DOCTYPE html >
+2 <html lang ="pt -br">
+3 <head >
+<table>
+4 <meta http - equiv =" Content - Type " content =" text / html ; charset =UTF -8">
+5 <title > Exercício de formulário com caixas específicas </title >
+6 </head >
+7 <body >
+    <form action="parametros.php" method="post">
+        <label for="keywords_id"> busca </label>
+        <input
+            id="keywords_id"
+            type="search"
+            name="keywords"
+            placeholder="keywords">
+
+        <br>
+
+        <label for="idade_id">Idade </label>
+        <input
+            id="idade_id"
+            type="number"
+            name= "idade"
+            min="18"
+            max="60" >
+<br>
+
+<label for="curtiu_id"
+        type="range"
+        name="curtiu"
+        min="0"
+        max="10"></label>
+        
+    <br>
+
+<label for=""email_id">Email: </label>
+<input
+        id="email_id"
+        type="email"
+        name="email"
+        placeholder="Seu email">
+
+        <br>
+
+    <label for="telefone_id">Telefone:</label>
+    <input
+        id="telefone_id"
+        type= "tel"
+        name="telefone"
+        placeholder="Seu telefone">
+
+        <label for=" site_id "> Site : </label >
+        <input
+            id="site_id"
+            type="url"
+            name="site"
+            placeholder="Seu site">
+
+            <label for=" nascimento_id "> Nascimento : </label>
+            <input
+                id="nascimento_id"
+                type="date"
+                name="festa_aniversario">   
+    
+
+    
+
+> 
+<br>
+
+        <label for="festa_aniversario_id">
+        </label>
+        <input
+            id="festa_aniversario_id"
+            type="datetime-local"
+            name="festa_aniversario"
+>
+<br>
+        <label for="proximo_carnaval_mes_id"></label>
+        <input
+            id="proximo_carnaval_id"
+            type="month"
+            name="proximo_carnaval_mes"
+        
+        > <br> 
+        <label for="semana_rock_in_rio_id">Semana do Rock in rio</label>
+        <input
+        id="semana_rock_in_rio_id"
+        type="type"
+        name="horario_de_entrada">
+
+    <br>
+
+    <label for=" "senha_id">Senha: </label>
+    <input
+        id="senha_id"
+        type="password"
+        name="senha"
+        aria-placeholder="Sua Senha">
+
+        <br>
+
+        <label for=""mensagem_id">Mensagem:</label>
+        <textarea
+            id=""mensagem_id"
+            name="mensagem"
+            rows="5"
+            cols="50"
+            maxlength="150"></textarea>
+
+        <br>
+
+        <input type=""submit" value="Enviar">
+</form>
+</body >
+</html >
